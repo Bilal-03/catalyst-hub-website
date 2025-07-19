@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from "@vercel/analytics/react";
 import { notesData } from './notes-data.js'; // Import notes from the local file
-import { Analytics } from "@vercel/analytics/react"
 
 // --- Helper Components ---
 const Icon = ({ path, className = "w-6 h-6", children }) => (
@@ -93,6 +93,7 @@ export default function App() {
                 <NotesSection notes={notes.filter(note => note.section === page)} loading={loading} title={`${page.toUpperCase()} Section`} />
             )}
             <Footer />
+            <Analytics />
         </div>
     );
 }
