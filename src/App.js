@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { notesData } from './notes-data.js'; // Import notes from the local file
+import { Analytics } from "@vercel/analytics/react"
 
 // --- Helper Components ---
 const Icon = ({ path, className = "w-6 h-6", children }) => (
