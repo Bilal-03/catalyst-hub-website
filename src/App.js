@@ -149,7 +149,7 @@ const HeroSection = () => (
         <div className="absolute inset-0 bg-indigo-900/40 z-10"></div>
         <div className="relative z-20 container mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
             <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight fade-in-up drop-shadow-lg">
-                Unlock Your CAT Potential.
+                Unlock Bushra aka Jalebi.
             </h1>
             <p className="mt-6 max-w-3xl mx-auto text-lg text-indigo-100 fade-in-up delay-100 drop-shadow-md">
                 A curated, community-driven platform to share and access high-quality CAT preparation notes, completely free.
